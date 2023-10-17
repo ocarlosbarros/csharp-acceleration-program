@@ -18,4 +18,4 @@ n# :rocket: Trybe's CSharp Acceleration Program
 * Arithmetic Operations
 * Casting
     * Casting Examples
-t    * Installment Project 
+    * Installment Project 
