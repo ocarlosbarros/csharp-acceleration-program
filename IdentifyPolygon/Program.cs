@@ -6,13 +6,25 @@
         string? userEntry = Console.ReadLine();
         bool validResponse = Int32.TryParse(userEntry, out var sideCount);
 
-        if (validResponse)
+        if (validResponse && sideCount >= 3)
         {
             string response = IdentifyPolygon(sideCount);
-            Console.WriteLine(response);
+            string complexity = string.Empty;
+
+            if (sideCount < 6){
+                complexity = "básico";
+            }
+            else {
+                complexity = "complexo";
+            }
+
+            Console.WriteLine($"O polígono com {sideCount} lados é classificado como: {response}");
+            Console.WriteLine($"O polígono {response} é classificado como: {complexity}");
+
         }
-        
-        
+        else {
+            Console.WriteLine("Não é um polígono.");
+        }
     }
 
     public static string IdentifyPolygon(int sideCount)
@@ -21,9 +33,6 @@
 
         switch (sideCount)
         {
-            case < 3:
-                name = "Não é um polígono.";
-                break;
             case 3:
                 name = "Triângulo";
                 break;
@@ -37,7 +46,7 @@
                 name = "Hexágono";
                 break;
             default:
-                name = "Polígono não identificado.";
+                name = "não identificado.";
                 break;
         }
         return name;
