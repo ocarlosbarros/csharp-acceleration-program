@@ -1,4 +1,4 @@
-# :rocket: Trybe's CSharp Acceleration Program
+n# :rocket: Trybe's CSharp Acceleration Program
 
 # :clipboard: Table of Contents
 
@@ -16,3 +16,6 @@
     * Constants
     * Variables with implict type
 * Arithmetic Operations
+* Casting
+    * Casting Examples
+    * Installment Project 
