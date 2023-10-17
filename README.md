@@ -15,3 +15,4 @@
     * Enum
     * Constants
     * Variables with implict type
+* Arithmetic Operations
