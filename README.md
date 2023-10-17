@@ -18,4 +18,12 @@ n# :rocket: Trybe's CSharp Acceleration Program
 * Arithmetic Operations
 * Casting
     * Casting Examples
-    * Installment Project 
+    * Installment Project
+*  Control Statements
+    * if and else
+    * switch/case
+* Loops
+    * while
+    * do while
+    * for
+    * foreach
