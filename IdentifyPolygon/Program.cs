@@ -1,4 +1,4 @@
-public class Program
+﻿public class Program
 {
     public static void Main(){
 
@@ -39,4 +39,4 @@ public class Program
         }
         return name;
     }
-    }
+}
