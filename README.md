@@ -11,3 +11,7 @@
     * Console.WriteLine()
 * Calculates Lamps
     * Solution of the challenge
+* Other Data Types
+    * Enum
+    * Constants
+    * Variables with implict type
