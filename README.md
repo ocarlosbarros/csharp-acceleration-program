@@ -1,4 +1,4 @@
-# :rocket: Trybe's CSharp Acceleration Program
+n# :rocket: Trybe's CSharp Acceleration Program
 
 # :clipboard: Table of Contents
 
@@ -18,4 +18,4 @@
 * Arithmetic Operations
 * Casting
     * Casting Examples
-    * Simple Project 
+t    * Installment Project 
