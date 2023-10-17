@@ -16,3 +16,6 @@
     * Constants
     * Variables with implict type
 * Arithmetic Operations
+* Casting
+    * Casting Examples
+    * Simple Project 
