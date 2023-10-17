@@ -22,7 +22,7 @@
         switch (sideCount)
         {
             case < 3:
-                name = "Não é um polígono";
+                name = "Não é um polígono.";
                 break;
             case 3:
                 name = "Triângulo";
@@ -33,8 +33,11 @@
             case 5:
                 name = "Pentágono";
                 break;
+            case 6:
+                name = "Hexágono";
+                break;
             default:
-                name = "Polígono não identificado";
+                name = "Polígono não identificado.";
                 break;
         }
         return name;
