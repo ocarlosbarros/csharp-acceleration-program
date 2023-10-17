@@ -8,3 +8,5 @@
 * Input and Output Data
     * Console.ReadLine()
     * Console.WriteLine()
+* Calculates Lamps
+    * Solution of the challenge
