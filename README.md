@@ -36,3 +36,7 @@
 * Functions
     * without return
     * with return
+* Exceptions
+    * try/catch
+    * finally
+    * throw
