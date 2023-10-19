@@ -30,6 +30,6 @@
     * Break and Continue Statements
     * Access Controll project
 * Arrays
-    Single-dimensional arrays
-    Multidimensional arrays
-    Jagged arrays
+    * Single-dimensional arrays
+    * Multidimensional arrays
+    * Jagged arrays
