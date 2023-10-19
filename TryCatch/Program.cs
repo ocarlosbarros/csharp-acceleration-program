@@ -27,7 +27,7 @@
     chemicalProduct[0] = "Cálcio";
     chemicalProduct[1] = "Zinco";
     chemicalProduct[2] = "Hidrazina";
-    chemicalProduct[3] = "Anilina"; 
+    chemicalProduct[3] = "Anilina"; //problem is here: IndexOutOfRangeException 
     }
     catch (IndexOutOfRangeException ex) 
     {
