@@ -33,3 +33,6 @@
     * Single-dimensional arrays
     * Multidimensional arrays
     * Jagged arrays
+* Functions
+    * without return
+    * with return
