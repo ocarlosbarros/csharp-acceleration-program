@@ -26,6 +26,8 @@ public class Program
         }
 
         //IndexOf
-        
+        string marvel = "Marvel";
+        int index = marvel.IndexOf("v");
+        Console.WriteLine(index);//3
     }
 }
