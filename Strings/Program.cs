@@ -52,5 +52,10 @@ public class Program
 
         bool languageExists = languageChoose.Contains(languageChoose);
         Console.WriteLine(languageExists);
+
+        //Join
+        IEnumerable<int> listNumbers = Enumerable.Range(1, 10);
+        string numbersText = string.Join(',', listNumbers);//The Join return is a string 
+        Console.WriteLine(numbersText);
     }
 }
