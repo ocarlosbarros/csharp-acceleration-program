@@ -15,5 +15,17 @@ public class Program
         string concatResult = string.Concat(textOne, textTwo, textThree);
 
         Console.WriteLine(concatResult);
+
+        //Split()
+        string emails = "email1@trybe.com;email2@trybe.com;email3@trybe.com";
+        string[] emailList = emails.Split(";");
+        
+        foreach(var email in emailList)
+        {
+            Console.WriteLine(email);
+        }
+
+        //IndexOf
+        
     }
 }
