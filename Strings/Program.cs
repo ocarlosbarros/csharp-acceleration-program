@@ -33,6 +33,10 @@ public class Program
         int indexNotFound = marvel.IndexOf("s");
         Console.WriteLine(indexNotFound);//-1
 
+        string avengersMovie = "Hulk smashing Loki";
+        int startOfIndex = avengersMovie.IndexOf("k", 13);//search start in Loki
+        Console.WriteLine(startOfIndex);//16
+
 
     }
 }
