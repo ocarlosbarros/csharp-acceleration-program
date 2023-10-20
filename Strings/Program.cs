@@ -37,6 +37,20 @@ public class Program
         int startOfIndex = avengersMovie.IndexOf("k", 13);//search start in Loki
         Console.WriteLine(startOfIndex);//16
 
+        //Contains
+        List<string> languages = new List<string>
+        {
+            "C#",
+            "java",
+            "javascript",
+            "python"
+        };
+        Console.WriteLine("Escreva o tipo de linguagem que deseja buscar:");
+        string? languageSearch = Console.ReadLine();
+        
+        var languageChoose = languageSearch ?? throw new ArgumentNullException("Linguagem obrigatória para pesquisa", languageSearch);
 
+        bool languageExists = languageChoose.Contains(languageChoose);
+        Console.WriteLine(languageExists);
     }
 }
