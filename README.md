@@ -40,3 +40,10 @@
     * try/catch
     * finally
     * throw
+* Strings
+    * Concat
+    * Split
+    * IndexOf
+    * Contains
+    * Join
+    * String Interpolation
