@@ -29,5 +29,10 @@ public class Program
         string marvel = "Marvel";
         int index = marvel.IndexOf("v");
         Console.WriteLine(index);//3
+
+        int indexNotFound = marvel.IndexOf("s");
+        Console.WriteLine(indexNotFound);//-1
+
+
     }
 }
