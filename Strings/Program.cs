@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Strings;
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        /*
+            Methods used with the String class 
+            */
+
+        //Concat()
+        string textOne = "Você está aprendendo sobre ";
+        string textTwo = "Strings em C# ";
+        string textThree = "e agora sabe concatenar textos utilizando o método Concat";
+
+        string concatResult = string.Concat(textOne, textTwo, textThree);
+
+        Console.WriteLine(concatResult);
+    }
+}
