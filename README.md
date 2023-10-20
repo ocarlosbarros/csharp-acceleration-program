@@ -49,3 +49,4 @@
     * String Interpolation
 * Advanced Types
     * Generics
+    * Anonymous Types
