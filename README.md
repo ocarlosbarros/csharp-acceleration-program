@@ -47,3 +47,5 @@
     * Contains
     * Join
     * String Interpolation
+* Advanced Types
+    * Generics
