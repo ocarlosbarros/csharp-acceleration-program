@@ -55,7 +55,17 @@ public class Program
 
         //Join
         IEnumerable<int> listNumbers = Enumerable.Range(1, 10);
-        string numbersText = string.Join(',', listNumbers);//The Join return is a string 
+        string numbersText = string.Join(',', listNumbers);//The Join return is a string.
         Console.WriteLine(numbersText);
+
+        //String interpolation
+        string textString = "string";
+        string text = $"Isso é uma {textString}";
+        Console.WriteLine(text);
+
+        Console.WriteLine("Digite seu nome: ");
+        string? username = Console.ReadLine();
+        string subject = $"Olá, {username}! Boas vindas ao sistema parceiro da Trybe!";
+        Console.WriteLine(subject);
     }
 }
