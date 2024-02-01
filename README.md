@@ -50,3 +50,5 @@
 * Advanced Types
     * Generics
     * Anonymous Types
+* POO
+    * Abstraction and Static Methods
