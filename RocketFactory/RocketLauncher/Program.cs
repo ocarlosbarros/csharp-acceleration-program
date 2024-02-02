@@ -11,8 +11,9 @@ class Program
         Console.WriteLine(rocket.Name);
         Console.WriteLine(secondRocket.Name);
         Console.WriteLine(rocket.Cost);
-
-
+        Console.WriteLine(rocket.Cost);
+        rocket.FuelAsPercentage = 10;
+        Console.WriteLine(rocket.FuelAsPercentage);
     }
 
 }
