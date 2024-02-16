@@ -52,3 +52,4 @@
     * Anonymous Types
 * POO
     * Abstraction and Static Methods
+    * Composition and Inheritance
