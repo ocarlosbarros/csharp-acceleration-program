@@ -4,17 +4,19 @@ public class Car
     public bool IsAutomatic {get;set;}
     public int NumbersOfSeats {get;set;}
 
-    public int EngineHorsePower {get;set;}
-    public int EngineTorque {get;set;}
-    public int EngineCapacity {get;set;}
-    public bool IsEngineStarted {get;set;}
+    public Engine Engine {get;set;} = new Engine();
+
+    // public int EngineHorsePower {get;set;}
+    // public int EngineTorque {get;set;}
+    // public int EngineCapacity {get;set;}
+    // public bool IsEngineStarted {get;set;}
 
 
     public void Drive(double distanceKm, double speed )
     {
         if (speed > TopSpeed)
             Console.WriteLine("Seu carro não pode ir tão rápido!");
-        else if (!IsEngineStarted)
+        else if (!Engine.IsStarted)
             Console.WriteLine("Seu carro não está ligado!");
         else
         {
@@ -23,19 +25,23 @@ public class Car
         }
     }
 
-    public void StartEngine()
-    {
-        if (IsEngineStarted)
-            Console.WriteLine("O motor já está ligado!");
-        else
-            IsEngineStarted = true;
-    }
+    // public void StartEngine()
+    // {
+    //     if (IsEngineStarted)
+    //         Console.WriteLine("O motor já está ligado!");
+    //     else
+    //         IsEngineStarted = true;
+    // }
 
-    public void StopEngine()
-    {
-        if (!IsEngineStarted)
-            Console.WriteLine("O motor já está parado!");
-        else
-            IsEngineStarted = false;
-    }
+    public void StartEngine() => Engine.Start();
+
+    // public void StopEngine()
+    // {
+    //     if (!IsEngineStarted)
+    //         Console.WriteLine("O motor já está parado!");
+    //     else
+    //         IsEngineStarted = false;
+    // }
+
+    public void StopEngine() => Engine.Stop();
 }
