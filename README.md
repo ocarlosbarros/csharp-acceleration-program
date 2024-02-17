@@ -53,3 +53,6 @@
 * POO
     * Abstraction and Static Methods
     * Composition and Inheritance
+        * Composition
+        * Inheritance
+        * Interfaces
