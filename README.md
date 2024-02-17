@@ -56,3 +56,5 @@
         * Composition
         * Inheritance
         * Interfaces
+        * Polymorphism
+        * Abstract Class
