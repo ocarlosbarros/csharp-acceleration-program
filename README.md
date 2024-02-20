@@ -59,3 +59,4 @@
         * Polymorphism
         * Abstract Class
         * Access modifiers
+        * Structs, Enums and Advanced Structures
