@@ -49,4 +49,17 @@ public class ClientController : ControllerBase
 
         return Ok(clientUpdated);
     }
+
+    [HttpDelete("{id}")]
+    public ActionResult Delete(int id)
+    {
+        var removed = _clients.RemoveAll(client => client.Id == id);
+
+        if (removed == 0)
+        {
+            return NotFound("Client not found");
+        }
+        
+        return NoContent();
+    }
 }
