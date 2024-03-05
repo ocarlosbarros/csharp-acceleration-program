@@ -1,4 +1,4 @@
-public class Client 
+public class Customer 
 {
     public string Name {get;set;}
 }

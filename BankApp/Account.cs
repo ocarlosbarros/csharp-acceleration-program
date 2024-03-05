@@ -2,7 +2,7 @@ public class Account
 {
     public decimal _balance;
 
-    public Client Owner { get; set; }
+    public Customer Owner { get; set; }
     public decimal Balance
     {
         get => _balance;
@@ -14,7 +14,7 @@ public class Account
         }
     }
 
-    public Account(Client owner)
+    public Account(Customer owner)
     {
         Owner = owner;
     }
