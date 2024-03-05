@@ -26,4 +26,13 @@ public class ClientController : ControllerBase
         return StatusCode(200, client);
     }
 
+    [HttpPost]
+    public ActionResult Create(ClientRequest request)
+    {
+        var client = request.CreateClient(_nextId++);
+        _clients.Add(client);
+
+        return StatusCode(201, client);
+    }
+
 }
