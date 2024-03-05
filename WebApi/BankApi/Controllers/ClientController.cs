@@ -14,4 +14,16 @@ public class ClientController : ControllerBase
         return StatusCode(200, _clients);
     }
 
+    [HttpGet("{id}")]
+    public ActionResult Get(int id)
+    {
+        var client = _clients.FirstOrDefault(client => client.Id == id);
+
+        if (client == null)
+        {
+            return NotFound("Client not found");
+        }
+        return StatusCode(200, client);
+    }
+
 }
