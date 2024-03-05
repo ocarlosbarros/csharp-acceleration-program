@@ -6,18 +6,18 @@ namespace BankApi.Test;
 
 public class IntegrationTest: IClassFixture<WebApplicationFactory<Program>>
 {
-    public HttpClient _clientTest;
+    public HttpClient _customerTest;
     
     public IntegrationTest(WebApplicationFactory<Program> factory)
     {
-        _clientTest = factory.CreateClient();
+        _customerTest = factory.CreateClient();
     }
 
-    [Theory(DisplayName = "Testing the route /GET Clients")]
-    [InlineData("/clients")]
-    public async Task TestGetClients(string url)
+    [Theory(DisplayName = "Testing the route /GET Customers")]
+    [InlineData("/customers")]
+    public async Task TestGetCustomers(string url)
     {
-        var response = await _clientTest.GetAsync(url);
+        var response = await _customerTest.GetAsync(url);
         Assert.Equal(System.Net.HttpStatusCode.OK, response?.StatusCode);
     }
 }
